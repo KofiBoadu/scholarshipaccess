@@ -100,11 +100,12 @@
 .resources h3{
 
     text-align: center;
-    padding: 10%;
-    font-size: 60px;
+    font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     color: tomato;
 }
+
+
 
 .description-1{
     justify-content: center;
@@ -128,10 +129,15 @@
     line-height: 1.6;
     padding: .75rem 1.25rem;
     text-align: center;
+    
    
 }
 
+
+
+
 .button button {
+    
     background-color: white;
     color: black;
     padding: 10px 32px;
@@ -139,14 +145,44 @@
     text-decoration: none;
     border: 1px solid #754ffe;
     font-size: 16px;
-    margin: 16px 2px;
+    margin-top:0px;
     transition-duration: 0.4s;
     cursor: pointer;
 }
 
+.button-1 button{
+
+      
+    background-color: white;
+    color: black;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #754ffe;
+    font-size: 16px;
+    margin: 30%;
+    margin-top:150px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+
+.button-1 a{
+    text-decoration: none;
+}
+
+
 .button a{
 
     text-decoration: none;
+}
+
+.button-1 :hover{
+    
+        background-color: tomato;
+        color: white; 
+    
 }
 
 .button  :hover{
@@ -168,10 +204,7 @@
     
 }
 
-.contact{
 
-  
-}
 .email h4{
    color: rgb(220, 124, 15);
    margin-top: 50px;
@@ -200,5 +233,12 @@
     height: 30px;
 }
 
-    
+
+.image img{
+
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+}
+
 
