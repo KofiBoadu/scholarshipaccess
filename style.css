@@ -106,6 +106,17 @@
 }
 
 
+.resources h4{
+
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: tomato;
+    margin-bottom: 160px;
+}
+
+
+
 
 .description-1{
     justify-content: center;
@@ -150,27 +161,8 @@
     cursor: pointer;
 }
 
-.button-1 button{
-
-      
-    background-color: white;
-    color: black;
-    padding: 10px 32px;
-    text-align: center;
-    text-decoration: none;
-    border: 1px solid #754ffe;
-    font-size: 16px;
-    margin: 30%;
-    margin-top:150px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-
-}
 
 
-.button-1 a{
-    text-decoration: none;
-}
 
 
 .button a{
@@ -185,10 +177,12 @@
     
 }
 
-.button  :hover{
+.button :hover{
     background-color: tomato;
     color: white;
 }
+
+
 
 
 
