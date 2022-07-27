@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Scholarship Access</title>
     <link rel="stylesheet" href="./style.css">
+
+</head>
    
 <body>
  <!-- program name start here-->
@@ -14,9 +16,10 @@
     </div>
  <!-- end here -->
 
-
 <div class="image">
-    <img src="./images/frontpage.jpg" alt="">
+    <img  class="slides" src="./images/frontpage.jpg" alt="">
+    <img  class="slides" src="./images/students.jpg" alt="">
+    <img  class="slides" src="./images/graduate (2).jpg" alt="">
 </div>
 
 
@@ -169,6 +172,26 @@
 
 </footer>
 <!-- footer end-->
+
+
+
+
+<script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("slides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+</script>
 
 </body>
 
