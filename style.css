@@ -1,3 +1,29 @@
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.topnav a {
+  float: left;
+  color: #cc9900;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #cc9900;
+  color: white;
+}
 
 .domain{
     display: flex;
@@ -19,6 +45,57 @@
 .image img{
 
     width: 100%;
+}
+
+.imageSlides {
+  display: none
+}
+ 
+img {
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+ 
+/* Our main images-slideshow container */
+.images-slideshow {
+  max-width: 612px;
+  position: relative;
+  margin: auto;
+}
+ 
+/*Style for ">" next and "<" previous buttons */
+.slider-btn{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 8px 16px;
+  margin-top: -22px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+ 
+/* setting the position of the previous button towards left */
+.previous {
+  left: 2%;
+}
+ /* setting the position of the next button towards right */
+.next {
+  right: 2%;
+}
+ 
+/* On hover, adding a background color */
+.previous:hover,
+.next:hover {
+  color: rgb(255, 253, 253);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .about{
