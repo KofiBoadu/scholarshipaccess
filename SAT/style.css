@@ -30,6 +30,13 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
     padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ecebf1;
+    margin-top: 0;
+    border-radius: .5rem;
+    margin: 20px;
+    box-shadow: 0 1px 3px rgb(3 0 71 / 9%);
+    
 }
 
 
