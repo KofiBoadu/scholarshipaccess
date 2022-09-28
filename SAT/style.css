@@ -1,3 +1,17 @@
+.header{
+ display: flex;
+ flex-wrap: wrap;
+ height: 40px;
+ box-shadow: 0 1px 3px rgb(3 0 71 / 9%);
+ border: 1px solid #ecebf1;
+ justify-content: center;
+}
+
+.header h3{
+    color: tomato;
+    margin: 10px;
+}
+
 .logoSAT{
     display: flex;
     height: 200px;
@@ -21,7 +35,6 @@
 }
 
 
-
 .overview-text{
     display: flex;
     flex-wrap: wrap;
@@ -37,6 +50,10 @@
     margin: 20px;
     box-shadow: 0 1px 3px rgb(3 0 71 / 9%);
     
+}
+
+.overview p{
+    padding: 20px;
 }
 
 
@@ -58,6 +75,10 @@
     padding: 10px;
     padding-bottom: 0px;
     
+}
+
+.introduction li{
+    margin: 5px;
 }
 
 .introduction h4{
