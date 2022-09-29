@@ -1,10 +1,15 @@
 .header{
  display: flex;
  flex-wrap: wrap;
- height: 40px;
  box-shadow: 0 1px 3px rgb(3 0 71 / 9%);
  border: 1px solid #ecebf1;
  justify-content: center;
+}
+
+.header img{
+    height: 25px;
+    width: 25px;
+    margin: 5px;
 }
 
 .header h3{
@@ -22,8 +27,8 @@
 }
 
 .image{
-    height: 150px;
-    width: 250px;   
+    height: 200px;
+    width: 350px;   
 }
 
 .overview{
@@ -75,6 +80,7 @@
     padding: 10px;
     padding-bottom: 0px;
     
+    
 }
 
 .introduction li{
@@ -97,13 +103,23 @@
     margin-top:15px;
     transition-duration: 0.4s;
     cursor: pointer;
+    
+    
+    
   
 }
 
 .introduction button a{
     text-decoration: none;
+    display: flex;
+    
 }
 
 .introduction h2{
     color: tomato;
+}
+
+.introduction img{
+    height: 25px;
+    
 }
