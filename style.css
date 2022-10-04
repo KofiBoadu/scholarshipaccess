@@ -6,8 +6,12 @@
   top: 0;
 }
 
-.topnav a {
+#homebutton{
   float: left;
+}
+
+.topnav a {
+  float: right;
   color: #cc9900;
   text-align: center;
   padding: 14px 16px;
@@ -39,6 +43,32 @@
 
 }
 
+
+
+
+.welcome{
+  height: 500px;
+  display: block;
+}
+
+.welcome h1{
+  text-align: center;
+  font-size: 30px;
+}
+
+.logoSAT{
+  display: flex;
+  height: 200px;
+  width: 350px;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.logoSAT img{
+    height: 200px;
+    width: 350px;   
+}
 
 
 
@@ -302,8 +332,8 @@ img {
 
 .logo img{
 
-    width: 40px;
-    height: 30px;
+    width: 25px;
+    height: 20px;
 }
 
 
