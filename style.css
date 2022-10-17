@@ -47,8 +47,18 @@
 
 
 .welcome{
-  height: 500px;
   display: block;
+  padding: 0px;
+  margin: 0px;
+}
+
+.welcome p{
+  padding: 10px;
+  margin: 0px;
+}
+
+.welcome li{
+  padding: 10px;
 }
 
 .welcome h1{
@@ -151,19 +161,31 @@ img {
     flex-wrap: wrap;
     padding: 5px;
     margin: 10px;
-    gap: 10px;
-    
+    gap: 10px; 
 }
 
 .box{
     height: 400px;
-    width: 350px;
+    width: 290px;
     box-shadow: inset 0 -3em 3em rgba(255, 255, 255, 0.1),
     0 0  0 2px rgb(255,255,255),
     0.3em 0.3em 1em rgba(0,0,0,0.3);
     border: 1px solid transparent;
     margin: 10px;
     border-radius: .9rem;
+    
+}
+
+.image-container{
+  height: 200px;
+  margin: 0px;
+}
+
+.image-container img{
+  height: 200px;
+  border-radius: 10px;
+  width: 290px;
+  margin: 0px;
 }
 
 .box h3{
@@ -173,13 +195,14 @@ img {
 }
 
 .text{
-
     display: inline-block;
     justify-content: center;
-    margin-top: 20px;
     padding: 10px;
 }
 
+.text p{
+  margin: 0px;
+}
 
 
 .started{  
