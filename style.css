@@ -206,45 +206,54 @@ img {
 
 
 .started{  
- 
- margin-top: 50px;   
+ margin-top: 100px;  
 }
 
 .started h2{
     text-align: center;
     font-family:'Courier New', Courier, monospace;
     font-size: 30px;
-    margin: 100px;
+    margin-bottom: 50px;
 }
 
 
-.resources{
-    height: 400px;
-    width: 400px;
-    box-shadow: inset 0 -3em 3em rgba(255, 255, 255, 0.1),
-    0 0  0 2px rgb(255,255,255),
-    0.3em 0.3em 1em rgba(0,0,0,0.3);
-    border: 1px solid transparent;
-    margin: 10px;
-    border-radius: .9rem; 
+.resource{
+  height: 100px;
+  width: 250px;
 }
 
-.resources h3{
+.blue{
+ background-color: #1d3868;
+ height: 50px;
+ display: flex;
+ justify-content: center;
 
-    text-align: center;
-    font-size: 40px;
-    font-family: 'Courier New', Courier, monospace;
-    color: tomato;
 }
 
+.blue h1{
+  margin: 10px;
+  font-size: 20px;
+  color: white;
+}
 
-.resources h4{
+.gold{
+  background-color: #ffbf00;
+  height: 50px;
+}
 
-    text-align: center;
-    font-size: 40px;
-    font-family: 'Courier New', Courier, monospace;
-    color: tomato;
-    margin-bottom: 160px;
+.button-style{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  color: #5c5776;
+  cursor: pointer;
+  font-size: .7rem;
+  font-weight: 100;
+  line-height: 1.6;
+  padding: .75rem 1.25rem;
+  text-align: center;
 }
 
 
@@ -257,7 +266,10 @@ img {
     padding: 5px;
     margin: 10px;
     gap: 50px;
+   
 }
+
+
 
 .button{
     border-style: solid;
